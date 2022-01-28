@@ -1,0 +1,13 @@
+php artisan make:controller AuthController
+
+php artisan migrate
+
+composer require laravel/sanctum
+
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+php artisan make:controller AuthController
+
+composer require yajra/laravel-datatables
+php artisan datatables:make Pegawai
+php artisan make:request PegawaiRequest
