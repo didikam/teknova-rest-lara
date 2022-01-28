@@ -8,6 +8,6 @@ php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 
 php artisan make:controller AuthController
 
-composer require yajra/laravel-datatables
+composer require yajra/laravel-datatables-oracle
 php artisan datatables:make Pegawai
 php artisan make:request PegawaiRequest
